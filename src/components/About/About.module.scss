@@ -1,0 +1,7 @@
+@import '../../styles/settings.scss';
+
+.text {
+  margin-top: (- $base-size * 3);
+  display: flex;
+  justify-content: flex-start;
+}
