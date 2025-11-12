@@ -22,15 +22,16 @@
   display: flex;
   gap: 20px;
   list-style: none;
-}
 
-a {
-  color: $color-light;
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
+  a {
+    color: $color-light;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
 
-  &.active {
-    text-decoration: underline;
+    &.linkActive {
+      color: $color-warning;
+    }
   }
 }
+
