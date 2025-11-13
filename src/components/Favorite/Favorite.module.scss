@@ -13,3 +13,16 @@
   display: flex;
   justify-content: flex-start;
 }
+
+.fcards{
+  position: relative;
+  max-width: $base-size * 35;
+  margin: ($base-size * 2) auto ($base-size * 2) auto;
+  padding: $base-size;
+  border-radius: $radius;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+  color: $color-dark;
+}
